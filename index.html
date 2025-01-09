@@ -8,12 +8,14 @@
   <meta name="theme-color" content="white">
 <body class="fullscreen">
 <div class="container">
-  <h1 class="title">Field Visit</h1>
-  <input type="search" placeholder="Offender Name">
-  <button type="button" class="good">SUCCESSFUL</button>
-  <button type="button" class="bad">ATTEMPTED</button>
-  <label for="contact_notes">Supervision Contact Notes</label>
-  <textarea id="contact_notes"></textarea>
+  <h1 class="title">
+    Field Visit
+    <img src="images/offline_pin.png" id="offline_indicator" alt="Offline indicator">
+  </h1>
+  <button type="button" class="good status" value="success">SUCCESSFUL</button>
+  <button type="button" class="bad status" value="fail">ATTEMPTED</button>
+  <span id="save_time"></span>
 </div>
+<script src="js/main.js"></script>
 </body>
 </html>
