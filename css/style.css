@@ -21,3 +21,13 @@ html,
 .title {
     font-size: 3rem;
 }
+
+.good, .bad {
+    color: white;
+}
+.good {
+    background-color: green;
+}
+.bad {
+    background-color: red;
+}
