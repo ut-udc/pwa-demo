@@ -2,6 +2,10 @@
 
 (function() {
     function initialize() {
+        if (navigator.serviceWorker) {
+            navigator.serviceWorker.register('/pwa-demo/sw.js', {scope: '/pwa-demo/'})
+        }
+
         document.getElementById('offline_indicator').hidden = true;
         document.querySelectorAll('.status')
             .forEach(button => button.addEventListener('click', statusListener));
