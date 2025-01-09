@@ -12,7 +12,7 @@
       "sizes": "512x512"
     }
   ],
-  "scope": "pwa-demo",
-  "start_url": "pwa-demo/index.html",
+  "scope": "/pwa-demo",
+  "start_url": "/index.html",
   "display": "standalone"
 }
