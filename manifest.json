@@ -1,0 +1,17 @@
+{
+  "name": "Supervision Contact",
+  "icons": [
+    {
+      "src": "images/sup_contact-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/sup_contact-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standard"
+}
