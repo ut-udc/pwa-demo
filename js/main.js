@@ -18,7 +18,7 @@
         let elem = document.getElementById('save_time');
         let status = e.target.value;
 
-        fetch('/rest/time', { cache: 'no-store' })
+        fetch('./rest/time', { cache: 'no-store' })
             .then(response => {
                 if (response.status === 200) {
                     return response.json();
